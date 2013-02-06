@@ -1,0 +1,21 @@
+{
+  "name": "live-sync",
+  "version": "0.0.0",
+  "description": "watches for file changes and syncs via ftp or sftp",
+  "main": "lib/live_sync.js",
+  "dependencies": {
+    "ssh2": "~0.1.12",
+    "watch": "~0.5.1"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "bin": "./bin/live_sync",
+  "keywords": [
+    "ftp",
+    "sftp",
+    "watch",
+    "sync"
+  ],
+  "author": "Gregor Martynus",
+  "license": "MIT"
+}
