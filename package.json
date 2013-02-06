@@ -1,6 +1,6 @@
 {
   "name": "live-sync",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "watches for file changes and syncs via sftp (more options to be added)",
   "main": "lib/live_sync.js",
   "dependencies": {
