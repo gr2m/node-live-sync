@@ -1,7 +1,7 @@
 {
   "name": "live-sync",
   "version": "0.0.0",
-  "description": "watches for file changes and syncs via ftp or sftp",
+  "description": "watches for file changes and syncs via sftp (more options to be added)",
   "main": "lib/live_sync.js",
   "dependencies": {
     "ssh2": "~0.1.12",
@@ -9,7 +9,9 @@
   },
   "devDependencies": {},
   "repository": "",
-  "bin": "./bin/live_sync",
+  "bin": {
+    "live_sync": "./bin/live_sync"
+  },
   "keywords": [
     "ftp",
     "sftp",
