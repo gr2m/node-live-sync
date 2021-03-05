@@ -8,7 +8,7 @@
     "watch": "~0.5.1"
   },
   "devDependencies": {},
-  "repository": "",
+  "repository": "github:gr2m/node-live-sync",
   "bin": {
     "live_sync": "./bin/live_sync"
   },
